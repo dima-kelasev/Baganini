@@ -1,0 +1,275 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFDF2;
+	font-family: 'Lora', serif;
+}
+header {
+	position: relative;
+}
+/*first page*/
+.header_img img {
+	/*background: url(./img/head-video bg.png);*/
+	height: 341px;
+	width: 100%;
+	
+	/*background-size: cover;*/
+}
+.logo img {
+	background-color: rgba(255, 253, 242, 0.7);
+	position: absolute;
+	top: 0;
+}
+
+.main_title {
+	display: flex;
+	justify-content: center;
+	margin-top: 125px;
+	border-bottom: 1px solid #000;
+	width: 64%;
+}
+.main_title1 {
+	display: flex;
+	justify-content: center;
+	margin-top: 125px;
+	border-bottom: 1px solid #000;
+	width: 100%;
+	margin-bottom: 4%;
+}
+.main_title1 p {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 61px;
+}
+.titile_geese {
+	display: flex;
+	justify-content: center;
+}
+.main_title p {
+	font-size: 48px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 61px;
+}
+.title {
+	margin: 0 10%;
+}
+.title p {
+	font-family: 'Lora', serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 61px;
+}
+.discription {
+	margin: 10% 0 5% 0;
+	display: flex;
+    justify-content: center;
+    background: #89694A;
+}
+.discription2 {
+	display: flex;
+	justify-content: center;
+}
+.discription span {
+	font-family: 'Finger Paint', cursive;
+}
+.about {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	right: 8%;
+}
+.about_title p {
+	font-family: 'Lora', serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 33px;
+	border-left: 1px solid #000;
+	padding-left: 5%;
+}
+.about_title1 p {
+	font-family: 'Lora', serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 33px;
+}
+.about_title {
+	width: 578px;
+	margin: 0 5%;
+}
+.about_title1 {
+	width: 578px;
+}
+.signature {
+	text-align: end;
+}
+.site_menu {
+	display: grid;
+	justify-content: end;
+	position: absolute;
+    right: 0;
+    
+}
+.site_menu img {
+	position: relative;
+	left: 0;
+}
+.main_discription {
+	display: flex;
+	justify-content: center;
+}
+.img_link {
+	display: flex;
+	justify-content: flex-end;
+	margin: 3% 0;
+}
+.footer {
+	display: flex;
+	justify-content: space-around;
+}
+.footer_menu li {
+	display: inline;
+	font-size: 18px;
+	line-height: 21px;
+	text-transform: uppercase;
+	font-family: 'Lora', serif;
+	margin: 0 20px;
+}
+.footer_menu a {
+	text-decoration: none;
+	color: #000;
+}
+.footer {
+	background: #FFFFFF;
+}
+.footer_social img {
+	margin: 8px 10px;
+}
+.footer_menu a:hover {
+	border: 0px solid #000;
+	box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	padding: 2px;
+	transition: .4s;
+}
+
+/*geese1*/
+.about_gees {
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+
+}
+.conteiner {
+	display: flex;
+    width: 64%;
+}
+.name_geese {
+	width: 27%;
+}
+.name_geese p {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 32px;
+}
+.name_geese span {
+	position: relative;
+}
+.foto_geese {
+	position: relative;
+}
+.foto_geese img  {
+	position: absolute;
+	bottom: 0;
+	left: 62px;
+}
+.bg_foto {
+	width: 834px;
+	height: 340px;
+	background: #89694A;
+	box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.3);
+	    position: absolute;
+    z-index: -1;
+    bottom: -17px;
+    left: 77px;
+
+}
+.conteiner_for_text {
+	width: 64%;
+}
+.text_geese {
+	font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 32px;
+}
+.text_geese1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 32px;
+	color: #fff;
+	position: relative;
+	top: -10%;
+}
+.foto_cart {
+	position: relative;
+    top: -21%;
+    width: 100%;
+}
+.foto_cart img {
+	margin: 0 10px 0 0;
+	width: 31%;
+}
+.video_recipe {
+	display: flex;
+	justify-content: center;
+	background: #89694A;
+}
+.film {
+	width: 80%;
+	height: 215px;
+	background: #fff;
+	margin: 5% 1%;
+	padding: 10px;
+}
+.foto_conteiner {
+	display: flex;
+	justify-content: center;
+}
+.foto_slide {
+	margin-top: 5%;
+}
+.scale {
+	transition: 1s;
+}
+.scale:hover {
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
