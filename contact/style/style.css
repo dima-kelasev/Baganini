@@ -9,13 +9,20 @@ body {
 	/*background: url(./img/head-video bg.png);*/
 	height: 356px;
 	width: 100%;
+	position: relative;
 	
 	/*background-size: cover;*/
 }
 .header_img img {
 	width: 100%;
 }
-
+.dark {
+	background-color: rgba(0, 0, 0, .4);
+	width: 100%;
+    height: 392px;
+    position: absolute;
+    top: 0;
+}
 .main_title {
 	display: flex;
 	justify-content: center;
@@ -78,7 +85,7 @@ body {
 	justify-content: end;
 	position: absolute;
     right: 0;
-    top: -139%;
+    top: -105%;
 }
 .site_menu img {
 	position: relative;
@@ -148,17 +155,145 @@ body {
 .scale:hover {
 	transform: scale(1.2);
 }
-
-
-
-
-
-
-
-
-
-
-
+.colos_animate {
+	position: relative;
+}
+.animate_colos1 {
+	position: absolute;
+    top: 79%;
+    left: 10%;
+    -webkit-transition: -webkit-transform 9s;
+      z-index: -1;
+}
+.animate_colos2 {
+	position: absolute;
+    top: 91%;
+    left: 5%;
+    -webkit-transition: -webkit-transform 10s;
+      z-index: -1;
+}
+.animate_colos3 {
+	position: absolute;
+    top: 59%;
+    left: 40%;
+    -webkit-transition: -webkit-transform 7s;
+      z-index: -1;
+}
+.animate_colos4 {
+	position: absolute;
+    right: 33%;
+    top: 54%;
+    -webkit-transition: -webkit-transform 6s;
+      z-index: -1;
+}
+.animate_colos5 {
+	position: absolute;
+    right: 35%;
+    top: 94%;
+    -webkit-transition: -webkit-transform 5s;
+      z-index: -1;
+}
+.animate_colos6 {
+	position: absolute;
+    left: 30px;
+    top: 50%;
+    -webkit-transition: -webkit-transform 8s;
+      z-index: -1;
+}
+.animate_colos7 {
+	position: absolute;
+    left: 14%;
+    top: 96%;
+    -webkit-transition: -webkit-transform 10s;
+      z-index: -1;
+}
+.animate_colos8 {
+	position: absolute;
+    right: 21%;
+    top: 74%;
+    -webkit-transition: -webkit-transform 6s;
+      z-index: -1;
+}
+.animate_colos9 {
+	position: absolute;
+    top: 55%;
+    left: 14%;
+    -webkit-transition: -webkit-transform 7s;
+      z-index: -1;
+}
+.animate_colos10 {
+	position: absolute;
+    top: 87%;
+    left: 37%;
+    -webkit-transition: -webkit-transform 10s;
+      z-index: -1;
+}
+.animate_colos11 {
+	position: absolute;
+    top: 174%;
+    left: 3%;
+    -webkit-transition: -webkit-transform 9s;
+      z-index: -1;
+}
+.animate_colos12 {
+	position: absolute;
+    right: 5%;
+    top: 243%;
+    -webkit-transition: -webkit-transform 6s;
+      z-index: -1;
+}
+.animate_colos13 {
+	position: relative;
+    left: 0%;
+    bottom: -349px;
+    -webkit-transition: -webkit-transform 10s;
+}
+.animate_colos14 {
+	position: relative;
+    bottom: -600px;
+    left: -5%;
+    -webkit-transition: -webkit-transform 5s;
+}
+.animate_colos15 {
+	position: relative;
+    left: -5%;
+    bottom: 438px;
+    -webkit-transition: -webkit-transform 9s;
+      z-index: -1;
+}
+.animate_colos16 {
+	position: absolute;
+    left: 31%;
+    top: 150%;
+    -webkit-transition: -webkit-transform 9s;
+      z-index: -1;
+}
+.animate_colos17 {
+	position: absolute;
+    left: 1%;
+    top: 121%;
+    -webkit-transition: -webkit-transform 5s;
+      z-index: -1;
+}
+.animate_colos18 {
+	position: absolute;
+    right: 5%;
+    top: 187%;
+    -webkit-transition: -webkit-transform 8s;
+      z-index: -1;
+}
+.animate_colos19 {
+	position: relative;
+    left: 79%;
+    top: 437px;
+    -webkit-transition: -webkit-transform 7s;
+}
+.animate_colos20 {
+	position: absolute;
+    left: 32%;
+    -webkit-transition: -webkit-transform 6s;
+      z-index: -1;
+}
 
 
 
