@@ -15,7 +15,17 @@ body {
 .header_img img {
 	width: 100%;
 }
-
+.video_soc {
+	 width: 100%;
+    height: 341px;
+    overflow: hidden;
+    position: relative;
+}
+.video_media {
+	width: 100%;
+    position: absolute;
+    bottom: -85%;
+}
 .main_title {
 	display: flex;
 	justify-content: center;
