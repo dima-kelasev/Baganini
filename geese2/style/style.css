@@ -118,6 +118,7 @@ header {
 	justify-content: end;
 	position: absolute;
     right: 0;
+    z-index: 2;
     
 }
 .site_menu img {
@@ -260,7 +261,131 @@ line-height: 32px;
 .scale:hover {
 	transform: scale(1.2);
 }
-
+.colos_bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.colos_wrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.colos_wrap img {
+	position: absolute;
+}
+.colos_animate1 {
+	left: 10%;
+    top: 22%;
+    width: 4%;
+     -webkit-transition: -webkit-transform 6s;
+}
+.colos_animate2 {
+	top: 48%;
+    right: 10%;
+    width: 4%;
+     -webkit-transition: -webkit-transform 8s;
+}
+.colos_animate3 {
+	top: 80%;
+    left: 3%;
+    width: 4%;
+     -webkit-transition: -webkit-transform 4s;
+}
+.colos_animate4 {
+	top: 42%;
+    left: 14%;
+    z-index: -1;
+     -webkit-transition: -webkit-transform 5s;
+     width: 5%;
+}
+.colos_animate5 {
+	left: 43%;
+    top: -13%;
+    width: 5%;
+    z-index: -1;
+     -webkit-transition: -webkit-transform 7s;
+}
+.colos_animate6 {
+	bottom: 0;
+	width: 5%;
+    left: 14%;
+     -webkit-transition: -webkit-transform 6s;
+}
+.colos_animate7 {
+	bottom: 0;
+    right: 7%;
+    width: 3%;
+     -webkit-transition: -webkit-transform 8s;
+}
+.colos_animate8 {
+	bottom: -70%;
+    right: 13%;
+    width: 5%;
+     -webkit-transition: -webkit-transform 4s;
+}
+.colos_animate9 {
+	top: -44%;
+	width: 5%;
+    left: 5%;
+     -webkit-transition: -webkit-transform 5s;
+}
+.colos_animate10 {
+	bottom: -34%;
+    left: 5%;
+    width: 6%;
+     -webkit-transition: -webkit-transform 6s;
+}
+.colos_animate11 {
+	bottom: -59%;
+    left: 12%;
+     -webkit-transition: -webkit-transform 10s;
+     width: 5%;
+}
+.colos_animate12 {
+	bottom: -37%;
+    right: 0;
+    width: 7%;
+     -webkit-transition: -webkit-transform 5s;
+}
+.colos_animate13 {
+	top: 35%;
+	width: 6%;
+	z-index: -1;
+     -webkit-transition: -webkit-transform 6s;
+}
+.colos_animate14 {
+	bottom: -100%;
+    left: 5%;
+    width: 5%;
+      -webkit-transition: -webkit-transform 10s;
+}
+.colos_animate15 {
+	bottom: -100%;
+    right: 5%;
+    width: 5%;
+      -webkit-transition: -webkit-transform 8s;
+}
+.colos_animate16 {
+	bottom: -119%;
+    right: 12%;
+    width: 4;
+      -webkit-transition: -webkit-transform 8s;
+}
+.colos_animate17 {
+	right: 0;
+	-webkit-transition: -webkit-transform 8s;
+}
+.colos_animate18 {
+	right: 5%;
+    top: -53%;
+    -webkit-transition: -webkit-transform 8s;
+}
+.colos_animate19 {
+	right: 13%;
+    top: -26%;
+    -webkit-transition: -webkit-transform 8s;
+}
 
 
 

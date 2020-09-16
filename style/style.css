@@ -17,14 +17,13 @@ body {
 }
 .video_soc {
 	 width: 100%;
-    height: 341px;
+    height: 700px;
     overflow: hidden;
     position: relative;
 }
 .video_media {
 	width: 100%;
     position: absolute;
-    bottom: -85%;
 }
 .main_title {
 	display: flex;
@@ -156,7 +155,7 @@ body {
     top: 0;
     left: 5%;
      z-index: -1;
-      -webkit-transition: -webkit-transform 2s;
+      -webkit-transition: -webkit-transform 10s;
      transform: rotate3d(1, 1, 1, 45deg);
 }
 .animate_img1 {
@@ -164,7 +163,7 @@ body {
     top: 13%;
     right: 26%;
      z-index: -1;
-    -webkit-transition: -webkit-transform 2s;
+    -webkit-transition: -webkit-transform 6s;
 	transform: rotate3d(1, 1, 1, 45deg);
 }
 .animate_img2 {
@@ -172,40 +171,40 @@ body {
     left: 7%;
     top: 47%;
      z-index: -1;
-      -webkit-transition: -webkit-transform 2s;
+      -webkit-transition: -webkit-transform 8s;
 }
 .animate_img3 {
 	position: absolute;
     top: -40%;
     left: 1%;
     z-index: -1;
-     -webkit-transition: -webkit-transform 2s;
+     -webkit-transition: -webkit-transform 5s;
 }
 .animate_img4 {
 	position: absolute;
     right: 20%;
     bottom: -15%;
      z-index: -1;
-      -webkit-transition: -webkit-transform 2s;
+      -webkit-transition: -webkit-transform 5s;
 }
 .animate_img5 {
 	position: absolute;
     bottom: 39%;
     left: 2%;
      z-index: -1;
-      -webkit-transition: -webkit-transform 2s;
+      -webkit-transition: -webkit-transform 10s;
 }
 .animate_img6 {
 	position: absolute;
     top: 47%;
     z-index: -1;
-     -webkit-transition: -webkit-transform 2s;
+     -webkit-transition: -webkit-transform 5s;
 }
 .animate_img7 {
 	position: absolute;
     top: 20%;
     z-index: -1;
-     -webkit-transition: -webkit-transform 2s;
+     -webkit-transition: -webkit-transform 8s;
 }
 
 
