@@ -191,15 +191,17 @@ header {
 }
 .foto_geese {
 	position: relative;
+	width: 68%;
 }
 .foto_geese img  {
 	position: absolute;
+	width: 100%;
 	bottom: 0;
 	left: 62px;
 }
 .bg_foto {
-	width: 834px;
-	height: 340px;
+	width: 100%;
+	height: 75%;
 	background: #89694A;
 	box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.3);
 	    position: absolute;
@@ -369,6 +371,22 @@ line-height: 32px;
     right: 12%;
     width: 4;
       -webkit-transition: -webkit-transform 8s;
+}
+
+
+@media screen 
+and (min-device-width: 320px)
+and (max-device-width: 1024px) {
+	.logo img {
+		height: 156px;
+	}
+	.header_img img {
+		height: 156px;
+	}
+	.dark {
+		height: 156px;
+	}
+	
 }
 
 
