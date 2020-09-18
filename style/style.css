@@ -278,7 +278,7 @@ body {
 }
 
 @media screen 
-and (min-device-width: 380px)
+and (min-device-width: 420px)
 and (max-device-width: 1024px) {
 	.site_menu {
 		display: none;
@@ -398,7 +398,7 @@ and (max-device-width: 1024px) {
 
 @media screen 
 and (min-device-width: 320px)
-and (max-device-width: 375px) {
+and (max-device-width: 414px) {
 	footer {
 		display: none;
 	}
