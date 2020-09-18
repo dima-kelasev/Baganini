@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./style/flexslider.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="style/animate.css">
+	<link rel="stylesheet" href="@media.css">
 	<script type="text/javascript" src="js/index.js"></script>
 	<script type="text/javascript" src="js/wow.min.js"></script>
 	<script>
@@ -35,14 +36,18 @@
 	
 	<header>
 		<div class="video_soc">
-			<video class="video_media" src="video/video2.mp4" autoplay="" muted="" loop=""></video>
+			<video class="video_media" src="video/video2.mp4" autoplay="" muted="" loop="">ghbdtn</video>
+			<div class="menu_btn">
+				<img src="img/button-menu.png" alt="">
+			</div>
 		</div>
+
 	</header>
 
 	<section class="section1">
 		<div class="main_title"> 
 			<div class="logo">
-				<img  src="./img/logo (1).png" alt="">
+				<a href="index.html"><img  src="./img/logo (1).png" alt=""></a>
 			</div>
 
 			<div class="title">
@@ -86,7 +91,9 @@
 
 		<div class="site_menu">
 
-			<a class="scale " href="geese1/index.html"><img class="wow animate__slideInRight" data-wow-duration="1s" src="./img/goose1.png" alt=""></a>
+			<div class="img_link">
+				<a class="scale " href="geese1/index.html"><img class="wow animate__slideInRight" data-wow-duration="1s" src="./img/goose1.png" alt=""></a>
+			</div>
 
 			<div class="img_link">
 				<a class="scale" href="geese2/index.html"><img class="wow animate__slideInRight" data-wow-duration="1s" src="./img/goose2.png" alt=""></a>
@@ -162,15 +169,76 @@
 
 		
 
+		
+
 	</section>
+
+
+	<div class="hide_slider">
+
+			<div class="flexslider carousel">
+				  <ul class="slides">
+				    <li>
+				      <img class="scale" src="./img/Baganini 109.jpg" />
+				    </li>
+				    <li>
+				      <img class="scale" src="./img/Baganini 79.jpg" />
+				    </li>
+				    <li>
+				      <img class="scale" src="./img/Baganini 64.jpg" />
+				    </li>
+				    <li>
+				      <img class="scale" src="./img/Baganini 67.jpg" />
+				    </li>
+				     <li>
+				      <img class="scale" src="./img/Baganini 88.jpg" />
+				    </li>
+				    <li>
+				      <img class="scale" src="./img/Baganini 12.jpg" />
+				    </li>
+				    <li>
+				      <img class="scale" src="./img/Baganini 32.jpg" />
+				    </li>
+				    <li>
+				      <img class="scale" src="./img/Baganini 49.jpg" />
+				    </li>
+				    <li>
+				      <img class="scale" src="./img/Baganini 58.jpg" />
+				    </li>
+				    <li>
+				      <img class="scale" src="./img/Baganini 8.jpg" />
+				    </li>
+				 
+				    <!-- items mirrored twice, total of 12 -->
+				  </ul>
+			</div>
+
+			<img class="bg_colos" src="img/bg-colos.png" alt="">
+
+			<script type="text/javascript" charset="utf-8">
+			  $(window).load(function() {
+			    $('.flexslider').flexslider({
+			    	 animation: "slide",
+			    animationLoop: false,
+			    itemWidth: 558,
+			    itemMargin: 20,
+			    
+			    });
+			  });
+			</script>
+
+
+
+			
+		</div>
 
 	<footer>
 		<div class="footer">
 			
 			<div class="footer_social">
 				<a href=""><img src="./img/facebook.png" alt=""></a>
-				<a href=""><img src="./img/watsapp.png" alt=""></a>
-				<a href=""><img src="./img/instagram.png" alt=""></a>
+				<a href="https://wa.me/+79283366325?text=Здравствуйте! Меня заинтересовала следующая продукция:"><img src="./img/watsapp.png" alt=""></a>
+				<a href="https://instagram.com/ferma.baganini?igshid=svjgd51r2476"><img src="./img/instagram.png" alt=""></a>
 				
 			</div>
 
@@ -194,6 +262,72 @@
 		
 	</footer>
 
-	
+	<div class="hide_menu wow animate__slideInDown" data-wow-duration="1.5s" id="hide">
+
+		<div class="close_btn" id="close">
+			<img src="img/close-menu.png" alt="">
+		</div>
+
+	<div class="hide_wrap">
+
+		<div class="text_hide">
+			<ul>
+				<li class="wow animate__slideInLeft" data-wow-duration="1s"><a  href="index.html">Главна</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="1.4s"><a href="history/index.html">История фермы</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="1.6s"><a href="partner/index.html">партнерам и ресторанам</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="2s"><a href="sale/index.html">Лавка продаж</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="2.4s"><a href="partner/html">документы</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="2.8s"><a href="contact/index.html">Доставка</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="3s"><a href="contact/index.html">контакты</a></li>
+			</ul>
+			
+		</div>
+			
+		
+		<div class="site_menu_hide">
+
+			<div class="img_link">
+				<a class="scale " href="geese1/index.html"><img class="wow animate__slideInRight geese" data-wow-duration="1s" src="./img/goose1.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="geese2/index.html"><img class="wow animate__slideInRight geese1" data-wow-duration="1.4s" src="./img/goose2.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="geese3/index.html"><img class="wow animate__slideInRight geese2" data-wow-duration="1.6s" src="./img/goose3.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="geese4/index.html"><img class="wow animate__slideInRight geese3" data-wow-duration="2s" src="./img/goose4.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="geese5/index.html"><img class="wow animate__slideInRight geese4" data-wow-duration="2.4s" src="./img/egg1.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="geese5/index.html"><img class="wow animate__slideInRight geese5" data-wow-duration="2.8s" src="./img/egg2.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="geese5/index.html"><img class="wow animate__slideInRight geese6" data-wow-duration="3s" src="./img/egg3.png" alt=""></a>
+			</div>
+		</div>
+
+	</div>
+
+
+			<div class="footer_social wow animate__slideInLeft" data-wow-duration="3s">
+				<a href=""><img src="./img/facebook.png" alt=""></a>
+				<a href="https://wa.me/+79283366325?text=Здравствуйте! Меня заинтересовала следующая продукция:"><img src="./img/watsapp.png" alt=""></a>
+				<a href="https://instagram.com/ferma.baganini?igshid=svjgd51r2476"><img src="./img/instagram.png" alt=""></a>
+				
+			</div>
+
+		
+	</div>
+
+
 </body>
 </html>

@@ -14,6 +14,15 @@ $(".animate_img5").css({transform: 'rotate(' + deg + 'rad)' })
 $(".animate_img2").css({transform: 'rotate(' + rotate + 'rad)' })
 });
 
+$('.menu_btn').click(function(){
+	$('.hide_menu').show()
+	$('.menu_btn').hide()
+})
+$('.close_btn').click(function(){
+	$('.hide_menu').hide()
+	$('.menu_btn').show()
+})
+
 
 
 });
