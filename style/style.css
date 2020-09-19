@@ -355,6 +355,7 @@ and (max-device-width: 1024px) {
 	justify-content: end;
 	position: absolute;
     right: 0;
+    overflow: hidden;
 	}
 	.geese, .geese1, .geese2, .geese3 {
 		position: relative;
@@ -458,12 +459,6 @@ and (max-device-width: 414px) {
     	height: auto;
     	top: 80%;
 	}
-	/*.flex-nav-next {
-		display: none;
-	}
-	.flex-nav-prev {
-		display: none;
-	}*/
 	.menu_btn img {
 		width: 150px;
 	}
@@ -511,6 +506,7 @@ and (max-device-width: 414px) {
 	justify-content: end;
 	position: absolute;
     right: 0;
+    overflow: hidden;
 	}
 	.geese, .geese1, .geese2, .geese3 {
 		position: relative;

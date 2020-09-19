@@ -28,6 +28,15 @@ $('.animate_colos33, .animate_colos34, .animate_colos32').css({ transform: 'rota
 $('.animate_colos35, .animate_colos37, .animate_colos39').css({ transform: 'rotate(-' + rotate + 'rad)' });
 $('.animate_colos36, .animate_colos38, .animate_colos40').css({ transform: 'rotate(-' + rotate + 'rad)' });
 
+$('.menu_btn').click(function(){
+	$('.hide_menu').show()
+	$('.menu_btn').hide()
+})
+$('.close_btn').click(function(){
+	$('.hide_menu').hide()
+	$('.menu_btn').show()
+})
+
 
 });
 
