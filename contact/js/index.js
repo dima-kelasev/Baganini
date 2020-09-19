@@ -20,6 +20,15 @@ $('.animate_colos17, .animate_colos19').css({ transform: 'rotate(-' + theta + 'r
 $('.animate_colos20, .animate_colos14').css({ transform: 'rotate(-' + theta + 'rad)' });
 
 
+$('.menu_btn').click(function(){
+	$('.hide_menu').show()
+	$('.menu_btn').hide()
+})
+$('.close_btn').click(function(){
+	$('.hide_menu').hide()
+	$('.menu_btn').show()
+})
+
 
 
 });
