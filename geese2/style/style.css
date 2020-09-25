@@ -386,10 +386,420 @@ line-height: 32px;
     top: -26%;
     -webkit-transition: -webkit-transform 8s;
 }
+.menu_btn {
+	display: none;
+}
+.hide_menu {
+	display: none;
+}
 
 
 
+@media screen and (min-width: 1000px) 
+		      and (max-width: 1440px) {
+		      	.site_menu img {
+    position: relative;
+    left: 20%;
+    width: 80%;
+}
+.dark {
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 268px;
+    position: absolute;
+    top: 0;
+}
+.logo img {
+	width: 18.6%;	
+}
+.header_img img {
+    height: auto;
+    width: 100%;
+    /* background-size: cover; */
+}
+.main_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    border-bottom: 1px solid #000;
+    width: 64%;
+}
 
+.colos_bg {
+    position: absolute;
+    width: 98%;
+    height: 100%;
+}
+.menu_btn {
+	display: none;
+}
+.hide_menu {
+	display: none;
+}
+}
+
+@media screen 
+and (min-device-width: 420px)
+and (max-device-width: 1024px) {
+	.header_img img {
+    height: auto;
+    width: 100%;
+    /* background-size: cover; */
+}
+.dark {
+	height: 181px;
+}
+.site_menu {
+	display: none;
+}
+.logo img {
+	width: 18.5%;
+}
+.main_title {
+	margin: 0;
+}
+.conteiner {
+    display: block;
+    width: 90%;
+}
+.foto_geese img {
+    position: relative;
+    bottom: 0;
+    left: 62px;
+}
+.name_geese {
+    width: 100%;
+    margin-bottom: 6%;
+}
+.conteiner_for_text {
+    width: 90%;
+}
+#video {
+	display: flex;
+}
+footer {
+	display: none;
+}
+.colos_animate6 {
+    bottom: 37%;
+    width: 5%;
+    left: 14%;
+    -webkit-transition: -webkit-transform 6s;
+}	
+.colos_animate7 {
+    bottom: 40%;
+    right: 7%;
+    width: 3%;
+    -webkit-transition: -webkit-transform 8s;
+}
+.colos_wrap {
+    position: relative;
+    width: 96%;
+    height: 100%;
+}
+#last_block {
+	height: 82%;
+}
+					/*MENU*/
+	.menu_btn {
+		display: block;
+		position: absolute;
+		z-index: 3;
+		bottom: 53%;
+    	right: 3%;
+    	cursor: pointer;
+	}
+	.hide_menu {
+		display: none;
+		width: 100%;
+		height: 100%;
+		background: #FFFDF2;
+		position: absolute;
+		top: 12.5%;
+		z-index: 3;
+
+	}
+	.animate__slideInRight {
+		width: 90%;
+	}
+	.site_menu_hide {
+		display: grid;
+	justify-content: end;
+	position: absolute;
+    right: 0;
+	}
+	.geese, .geese1, .geese2, .geese3 {
+		position: relative;
+		right: -11%;
+	}
+	.text_hide a {
+		font-size: 43px;
+   		line-height: 23px;
+   		text-transform: uppercase;
+   		text-decoration: none;
+   		color: #000;
+
+	}
+	.text_hide li {
+		margin: 10% 0;
+		list-style-type: none;
+		border-bottom: 1px solid #000;
+    	padding-bottom: 8px;
+	}
+	.hide_wrap {
+		display: flex;
+	}
+	.footer_social {
+		margin: 0 3%;
+	}
+	.close_btn {
+		position: absolute;
+		right: 3%;
+		top: -12.5%;
+		cursor: pointer;
+	}
+	.footer_social img {
+		width: 5%;
+	}
+
+	.geese, .geese1, .geese2, .geese3 {
+		position: relative;
+		right: -64%;
+	}
+	.geese {
+		top: -7px;
+	}
+	.geese1 {
+		top: -20px;
+	}
+	.geese2 {
+		top: -34px;
+	}
+	.geese3 {
+		top: -54px;
+	}
+	.geese4 {
+		position: relative;
+		
+		top: -62px;
+	}
+	.geese5 {
+		position: relative;
+		
+		top: -69px;
+	}
+	.geese6 {
+		position: relative;
+		
+		top: -78px;
+	}
+	#close {
+		position: absolute;
+    right: 3%;
+    top: -4%;
+    cursor: pointer;
+	}
+	.footer_social img {
+		width: 8%;
+	}
+	
+	.hide1 {
+		display: none;
+	}
+	.wrap_product_hide {
+		display: none;
+	}
+	.foto_hide {
+		display: none;
+	}
+}
+
+@media screen 
+and (min-device-width: 320px)
+and (max-device-width: 414px) {
+	.site_menu {
+		display: none;
+	}
+	.header_img img {
+    height: auto;
+    width: 100%;
+    /* background-size: cover; */
+}
+.dark {
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 181px;
+    position: absolute;
+    top: 0;
+}
+.logo img {
+	width: 18.5%;
+}
+.main_title {
+	margin: 0;
+}
+.conteiner {
+    display: block;
+    width: 90%;
+}
+.foto_geese img {
+    position: relative;
+    bottom: 0;
+    left: 62px;
+}
+.name_geese {
+    width: 100%;
+    margin-bottom: 5%;
+}
+.name_geese p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 52px;
+}
+.conteiner_for_text {
+    width: 90%;
+}
+.text_geese {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 52px;
+}
+#video {
+	display: flex;
+}
+footer {
+	display: none;
+}
+.colos_animate6 {
+    bottom: 21%;
+    width: 5%;
+    left: 14%;
+    -webkit-transition: -webkit-transform 6s;
+}
+.colos_animate7 {
+    bottom: 22%;
+    right: 7%;
+    width: 3%;
+    -webkit-transition: -webkit-transform 8s;
+}
+#last_block {
+	height: 85%;
+}
+.colos_wrap {
+    position: relative;
+    width: 95%;
+    height: 100%;
+}
+								/*MENU*/
+	.menu_btn {
+		display: block;
+		position: absolute;
+		z-index: 3;
+		bottom: 53%;
+    	right: 3%;
+    	cursor: pointer;
+	}
+	.hide_menu {
+		display: none;
+		width: 100%;
+		height: 100%;
+		background: #FFFDF2;
+		position: absolute;
+		top: 9%;
+		z-index: 3;
+
+	}
+	.animate__slideInRight {
+		width: 90%;
+	}
+	.site_menu_hide {
+		display: grid;
+	justify-content: end;
+	position: absolute;
+    right: 0;
+    overflow: hidden;
+	}
+	.geese, .geese1, .geese2, .geese3 {
+		position: relative;
+		right: -11%;
+	}
+	.text_hide a {
+		font-size: 43px;
+   		line-height: 23px;
+   		text-transform: uppercase;
+   		text-decoration: none;
+   		color: #000;
+
+	}
+	.img_link {
+		position: relative;
+		right: 0%;
+	}
+	.text_hide li {
+		margin: 10% 0;
+		list-style-type: none;
+		border-bottom: 1px solid #000;
+    	padding-bottom: 8px;
+	}
+	.hide_wrap {
+		display: flex;
+	}
+	.footer_social {
+		margin: 0 3%;
+	}
+	.close_btn {
+		position: absolute;
+		right: 3%;
+		top: -12.5%;
+		cursor: pointer;
+	}
+	.footer_social img {
+		width: 5%;
+	}
+
+	.geese, .geese1, .geese2, .geese3 {
+		position: relative;
+		right: -64%;
+	}
+	.geese {
+		top: -7px;
+	}
+	.geese1 {
+		top: -20px;
+	}
+	.geese2 {
+		top: -34px;
+	}
+	.geese3 {
+		top: -54px;
+	}
+	.geese4 {
+		position: relative;
+		
+		top: -62px;
+	}
+	.geese5 {
+		position: relative;
+		
+		top: -69px;
+	}
+	.geese6 {
+		position: relative;
+		
+		top: -78px;
+	}
+	#close {
+		position: absolute;
+    right: 3%;
+    top: -3.5%;
+    cursor: pointer;
+	}
+	.footer_social img {
+		width: 8%;
+	}
+}
 
 
 

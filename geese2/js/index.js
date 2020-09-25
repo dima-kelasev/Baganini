@@ -18,6 +18,15 @@ $(".colos_animate13, .colos_animate18").css({transform: 'rotate(' + rotate + 'ra
 $(".colos_animate17, .colos_animate19").css({transform: 'rotate(' + twin + 'rad)' })
 });
 
+$('.menu_btn').click(function(){
+	$('.hide_menu').show()
+	$('.menu_btn').hide()
+})
+$('.close_btn').click(function(){
+	$('.hide_menu').hide()
+	$('.menu_btn').show()
+})
+
 
 
 });

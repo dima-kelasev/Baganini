@@ -50,6 +50,17 @@ $(".animate_colos58").css({transform: 'rotate(' + theta + 'rad)' })
 
 
 
+$('.menu_btn').click(function(){
+	$('.hide_menu').show()
+	$('.menu_btn').hide()
+})
+$('.close_btn').click(function(){
+	$('.hide_menu').hide()
+	$('.menu_btn').show()
+})
+
+
+
 });
 
 

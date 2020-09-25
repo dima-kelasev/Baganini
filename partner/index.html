@@ -36,8 +36,13 @@
 <body>
 	<header>
 		<div class="header_img">
-			<img src="./img/Mask Group-2.png" alt="">
+			<img class="hide" src="./img/Mask Group-2.png" alt="">
+			<img class="show" src="./img/Mask Group.png" alt="">
 			<div class="dark"></div>
+			<div class="menu_btn">
+				<img src="./img/button-menu.png" alt="">
+			</div>
+
 		
 		</div>
 
@@ -120,7 +125,17 @@
 	<div class="block_text">
 		<p>В нашем ассортименте предлагается исключительно натуральная, экологическая, свежая продукция. Для постоянных партнеров и наших контрагентов, предоставляется Гибкая система скидок, индивидуальный подход и бесплатная доставка</p>
 	</div>
+
+
+	<div class="block_text_hide">
+		<p>Компания приглашает к сотрудничеству гостиницы, санатории, продуктовые магазины, кафе и рестораны. Мы предлагаем оптовые и индивидуальные поставки фермерских продуктов (гуси, утки 🦆, цесарки, бентамки, яички трёх видов птицы, а так же готовые паштеты, субпродукты и фарш) собственного производства нашей семейной фермы Baganini. В нашем ассортименте предлагается исключительно натуральная, экологическая, свежая продукция. Для постоянных партнеров и наших контрагентов, предоставляется Гибкая система скидок, индивидуальный подход и бесплатная доставка</p>
 	</div>
+	</div>
+
+
+	
+
+
 
 
 </section>
@@ -177,7 +192,7 @@
 
 		<div class="block_about">
 
-			<div class="foto_about">
+			<div class="foto_about" id="top">
 				<img src="./img/curcule_img2.png" alt="">
 			</div>
 
@@ -187,6 +202,10 @@
 					Субпродукты и заморозка хранятся 90 дней согласно ГОСТу,при температуре - 20 °C. Вся остальная продукция Поставляется свежей и в охлаждённым виде
 				</p>
 				<img src="./img/browne_line.png" alt="">
+			</div>
+
+			<div class="foto_about" id="down2" >
+				<img src="./img/curcule_img2.png" alt="">
 			</div>
 			
 		</div>
@@ -236,7 +255,7 @@
 
 		<div class="block_about">
 
-			<div class="foto_about">
+			<div class="foto_about" id="top1">
 				<img src="./img/curcule_img4.png" alt="">
 			</div>
 
@@ -246,6 +265,10 @@
 					Сертификаты соответствия,ветеринарные заключения, бухгалтерский учет и заключение договора . Оплата возможна как по безналу (банковский перевод по реквизитам ОГРНИП) либо по кассовому и тoварному чекам. Исключительно прозрачный документооборот.
 				</p>
 				<img src="./img/browne_line.png" alt="">
+			</div>
+
+			<div class="foto_about" id="down1">
+				<img src="./img/curcule_img4.png" alt="">
 			</div>
 			
 		</div>
@@ -297,7 +320,7 @@
 
 		<div class="block_about">
 
-			<div class="foto_about">
+			<div class="foto_about" id="top2">
 				<img src="./img/curcule_img6.png" alt="">
 			</div>
 
@@ -307,6 +330,10 @@
 					Всегда рады предложить производить продукцию под вашей торговой маркой,а так же по вашему тех. заданию. Мы Открыты к индивидуальным договорим условиям и диалогу с нашими партнёрами и оптовыми клиентами.
 				</p>
 				<img src="./img/browne_line.png" alt="">
+			</div>
+
+			<div class="foto_about" id="down0">
+				<img src="./img/curcule_img6.png" alt="">
 			</div>
 			
 		</div>
@@ -483,6 +510,73 @@
 		</div>
 		
 	</footer>
+
+
+		<div class="hide_menu wow animate__slideInDown" data-wow-duration="1.5s" id="hide">
+
+		<div class="close_btn" id="close">
+			<img src="img/close-menu.png" alt="">
+		</div>
+
+	<div class="hide_wrap">
+
+		<div class="text_hide">
+			<ul>
+				<li class="wow animate__slideInLeft" data-wow-duration="1s"><a  href="../index.html">Главна</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="1.4s"><a href="../history/index.html">История фермы</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="1.6s"><a href="../partner/index.html">партнерам и ресторанам</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="2s"><a href="../sale/index.html">Лавка продаж</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="2.4s"><a href="../partner/index.html">документы</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="2.8s"><a href="../contact/index.html">Доставка</a></li>
+				<li class="wow animate__slideInLeft" data-wow-duration="3s"><a href="../contact/index.html">контакты</a></li>
+			</ul>
+			
+		</div>
+			
+		
+		<div class="site_menu_hide">
+
+			<div class="img_link">
+				<a class="scale " href="../geese1/index.html"><img class="wow animate__slideInRight geese" data-wow-duration="1s" src="./img/goose1.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="../geese2/index.html"><img class="wow animate__slideInRight geese1" data-wow-duration="1.4s" src="./img/goose2.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="../geese3/index.html"><img class="wow animate__slideInRight geese2" data-wow-duration="1.6s" src="./img/goose3.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="../geese4/index.html"><img class="wow animate__slideInRight geese3" data-wow-duration="2s" src="./img/goose4.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="../geese5/index.html"><img class="wow animate__slideInRight geese4" data-wow-duration="2.4s" src="./img/egg1.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="../geese5/index.html"><img class="wow animate__slideInRight geese5" data-wow-duration="2.8s" src="./img/egg2.png" alt=""></a>
+			</div>
+
+			<div class="img_link">
+				<a class="scale" href="../geese5/index.html"><img class="wow animate__slideInRight geese6" data-wow-duration="3s" src="./img/egg3.png" alt=""></a>
+			</div>
+		</div>
+
+	</div>
+
+
+			<div class="footer_social wow animate__slideInLeft" data-wow-duration="3s">
+				<a href=""><img src="./img/facebook.png" alt=""></a>
+				<a href="https://wa.me/+79283366325?text=Здравствуйте! Меня заинтересовала следующая продукция:"><img src="./img/watsapp.png" alt=""></a>
+				<a href="https://instagram.com/ferma.baganini?igshid=svjgd51r2476"><img src="./img/instagram.png" alt=""></a>
+				
+			</div>
+
+		
+	</div>
 
 	
 <!-- <script type="text/javascript" src="./js/jquery-3.5.1.slim.min.js"></script> -->

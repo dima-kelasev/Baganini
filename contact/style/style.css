@@ -384,6 +384,7 @@ and (max-device-width: 1024px) {
 }
 .animate_colos10 {
 	list-style-type: 81%;
+	display: none;
 }
 .animate_colos12 {
     position: absolute;
@@ -583,9 +584,16 @@ and (min-device-width: 320px)
 and (max-device-width: 414px) {
 	.animate_colos19 {
     position: relative;
-    left: 17%;
+    left: 54%;
     top: 618px;
     -webkit-transition: -webkit-transform 7s;
+}
+.animate_colos10 {
+    position: absolute;
+    top: 87%;
+    left: 75%;
+    -webkit-transition: -webkit-transform 10s;
+    z-index: -1;
 }
 .animate_colos6 {
     position: absolute;
@@ -766,10 +774,11 @@ footer {
     top: 120%;
     -webkit-transition: -webkit-transform 8s;
     z-index: 1;
+    display: none;
 }
 .animate_colos11 {
     position: absolute;
-    top: 153%;
+    top: 106%;
     left: 3%;
     -webkit-transition: -webkit-transform 9s;
     z-index: 1;
@@ -779,6 +788,13 @@ footer {
     right: 5%;
     top: 100%;
     -webkit-transition: -webkit-transform 6s;
+    z-index: -1;
+}
+.animate_colos16 {
+    position: absolute;
+    left: 31%;
+    top: 127%;
+    -webkit-transition: -webkit-transform 9s;
     z-index: -1;
 }
 
