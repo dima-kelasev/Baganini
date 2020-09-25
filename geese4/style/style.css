@@ -406,6 +406,12 @@ line-height: 32px;
 .hide_menu {
 	display: none;
 }
+#close {
+	display: none;
+}
+.menu_btn {
+	display: none;
+}
 
 @media screen and (min-width: 1000px) 
 		      and (max-width: 1440px) {
@@ -431,6 +437,13 @@ line-height: 32px;
 .hide_menu {
 	display: none;
 }
+#close {
+	display: none;
+}
+.menu_btn {
+	display: none;
+}
+
 
 }
 
@@ -595,7 +608,7 @@ footer {
 	#close {
 		position: absolute;
     right: 3%;
-    top: -4%;
+    top: 32%;
     cursor: pointer;
 	}
 	.footer_social img {
@@ -787,7 +800,7 @@ footer {
 	#close {
 		position: absolute;
     right: 3%;
-    top: -3.5%;
+    top: 28.5%;
     cursor: pointer;
 	}
 	.footer_social img {

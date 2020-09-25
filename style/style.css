@@ -444,23 +444,23 @@ and (max-device-width: 414px) {
 	.hide_slider {
 		display: block;
 	}
-	.flex-viewport {
+	/*.flex-viewport {
 		height: 263px!important;
 		overflow: visible!important;
 		margin-top: 22px;
-	}
+	}*/
 	.flexslider .slides li {
-		width: 200px!important;
-		margin-right: 175px!important;
+		/*width: 200px!important;*/
+		/*margin-right: 175px!important;*/
 	} 
-	.flexslider {
+	/*.flexslider {
 		width: 100%!important;
 		overflow: hidden;
-	}
-	.flexslider .slides img {
+	}*/
+	/*.flexslider .slides img {
 		width: 174%!important;
     display: block;
-	}
+	}*/
 	.bg_colos {
     	height: auto;
     	top: 76%;

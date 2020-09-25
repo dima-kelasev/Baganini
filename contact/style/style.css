@@ -303,6 +303,18 @@ body {
 .hide_block {
 	display: none;
 }
+	#close {
+					display: none;
+				}
+				.menu_btn {
+					display: none;
+				}
+				.hide_menu {
+					display: none; 
+				}
+				#hide {
+					display: none;
+				}
 
 
 @media screen and (min-width: 1000px) 
@@ -348,6 +360,16 @@ body {
 				.site_menu {
 					top: -95%;
 				}
+				#close {
+					display: none;
+				}
+				.menu_btn {
+					display: none;
+				}
+				.hide_menu {
+					display: none;
+				}
+
 			  
 	
 }
@@ -471,6 +493,7 @@ footer {
 	display: block;
 }
 
+
 					/*MENU*/
 .menu_btn {
 		display: block;
@@ -565,8 +588,9 @@ footer {
 	#close {
 		position: absolute;
     right: 3%;
-    top: -4%;
+    top: 11.3%;
     cursor: pointer;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;
@@ -696,8 +720,9 @@ and (max-device-width: 414px) {
 	#close {
 		position: absolute;
     right: 3%;
-    top: -4%;
+    top: 6.4%;
     cursor: pointer;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;

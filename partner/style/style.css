@@ -826,6 +826,9 @@ line-height: 32px;
 #down2 {
 	display: none;
 }
+#close {
+	display: none;
+}
 
 @media screen and (min-width: 1000px) 
 			  and (max-width: 1440px) {
@@ -1137,8 +1140,9 @@ footer {
 	#close {
 		position: absolute;
     right: 3%;
-    top: -5%;
+    top: 59%;
     cursor: pointer;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;
@@ -1256,10 +1260,11 @@ and (max-device-width: 414px) {
 	#close {
 		position: absolute;
     right: 5%;
-    top: -4%;
+    top: 58%;
     cursor: pointer;
     width: 149px;
     height: 72px;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;

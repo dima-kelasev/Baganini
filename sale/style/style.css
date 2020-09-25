@@ -557,6 +557,7 @@ text-align: center;
 .colos_animate, .colos_animate2, .colos_animate3, .colos_animate4{
 	position: relative;
 	margin: -3% 0;
+	width: 96%;
 } 
 .colos_animate5 {
 	position: relative;
@@ -927,6 +928,9 @@ text-align: center;
 .hide_menu {
 	display: none;
 }
+.close_btn {
+	display: none;
+}
 
 
 @media screen and (min-width: 1000px) 
@@ -1285,8 +1289,9 @@ footer {
 	#close {
 		position: absolute;
     right: 3%;
-    top: -5%;
+    top: 33%;
     cursor: pointer;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;
@@ -1672,8 +1677,9 @@ footer {
 	#close {
 		position: absolute;
     right: 3%;
-    top: -5%;
+    top: 23.5%;
     cursor: pointer;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;

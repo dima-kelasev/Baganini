@@ -928,6 +928,9 @@ line-height: 32px;
 .text_geese1_hide2 {
 	display: none;
 }
+#close {
+	display: none;
+}
 
 
 @media screen and (min-width: 1000px) 
@@ -1274,6 +1277,7 @@ footer {
     right: 3%;
     top: 89.5%;
     cursor: pointer;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;
@@ -1674,6 +1678,7 @@ footer {
     right: 3%;
     top: 93.5%;
     cursor: pointer;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;
