@@ -603,6 +603,7 @@ footer {
     right: 3%;
     top: 34%;
     cursor: pointer;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;
@@ -712,7 +713,7 @@ footer {
 		height: 100%;
 		background: #FFFDF2;
 		position: absolute;
-		top: 9%;
+		top: 11%;
 		z-index: 3;
 
 	}
@@ -800,6 +801,7 @@ footer {
     right: 3%;
     top: 33.5%;
     cursor: pointer;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;

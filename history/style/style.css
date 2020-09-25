@@ -1580,7 +1580,7 @@ footer {
 		display: block;
 		position: absolute;
 		z-index: 3;
-		bottom: 3%;
+		bottom: 25%;
     	right: 3%;
     	cursor: pointer;
 	}
@@ -1676,7 +1676,7 @@ footer {
 	#close {
 		position: absolute;
     right: 3%;
-    top: 93.5%;
+    top: 71.5%;
     cursor: pointer;
     display: block;
 	}
