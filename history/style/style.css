@@ -931,6 +931,9 @@ line-height: 32px;
 #close {
 	display: none;
 }
+.hide_menu {
+	display: none;
+}
 
 
 @media screen and (min-width: 1000px) 

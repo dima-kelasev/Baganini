@@ -550,7 +550,7 @@ and (max-device-width: 414px) {
 
 	.geese, .geese1, .geese2, .geese3 {
 		position: relative;
-		right: -64%;
+		right: -10%;
 	}
 	.geese {
 		top: -7px;

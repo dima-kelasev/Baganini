@@ -395,6 +395,9 @@ line-height: 32px;
 .hide_menu {
 	display: none;
 }
+#close {
+	display: none;
+}
 
 @media screen and (min-width: 1000px) 
 		      and (max-width: 1440px) {
@@ -414,6 +417,7 @@ line-height: 32px;
 .logo img {
 	width: 18.5%;
 }
+
 }
 
 @media screen 
@@ -555,6 +559,7 @@ footer {
     right: 3%;
     top: 25%;
     cursor: pointer;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;
@@ -737,6 +742,7 @@ footer {
     right: 3%;
     top: 33.5%;
     cursor: pointer;
+    display: block;
 	}
 	.footer_social img {
 		width: 8%;
