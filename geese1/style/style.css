@@ -429,6 +429,18 @@ line-height: 32px;
 @media screen 
 and (min-device-width: 420px)
 and (max-device-width: 1024px) {
+	.colos_animate6 {
+		opacity: .6;
+	}
+	.colos_animate10 {
+		opacity: .6;
+	}
+	.colos_animate9 {
+		opacity: .6;
+	}
+	.colos_animate11 {
+		opacity: .6;
+	}
 	.site_menu {
 		display: none;
 	}
@@ -642,6 +654,18 @@ footer {
 @media screen 
 and (min-device-width: 320px)
 and (max-device-width: 414px) {
+	.colos_animate6 {
+		opacity: .6;
+	}
+	.colos_animate10 {
+		opacity: .6;
+	}
+	.colos_animate9 {
+		opacity: .6;
+	}
+	.colos_animate11 {
+		opacity: .6;
+	}
 	.show {
 		display: block;
 	}

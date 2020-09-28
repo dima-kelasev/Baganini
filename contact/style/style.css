@@ -378,6 +378,9 @@ body {
 @media screen 
 and (min-device-width: 420px)
 and (max-device-width: 1024px) {
+	.animate_colos4 {
+		opacity: .6;
+	}
 	.dark {
 		    background-color: rgba(0, 0, 0, .4);
     width: 100%;
@@ -606,6 +609,9 @@ footer {
 @media screen 
 and (min-device-width: 320px)
 and (max-device-width: 414px) {
+	.animate_colos4 {
+		opacity: .6;
+	}
 	.animate_colos19 {
     position: relative;
     left: 54%;

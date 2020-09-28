@@ -1021,6 +1021,9 @@ text-align: center;
 @media screen 
 and (min-device-width: 420px)
 and (max-device-width: 1024px) {
+	.animate_colos7 {
+		opacity: .7
+	}
 	.hide_dsc {
 		display: none;
 	}
@@ -1192,6 +1195,12 @@ footer {
 .colos_animate, .colos_animate2, .colos_animate3, .colos_animate4, .colos_animate5, .colos_animate6, .animate_colos1 {
 	width: 90%;
 }
+.animate_colos45 {
+		opacity: .7
+	}
+	.animate_colos55 {
+		opacity: .7
+	}
 
 	/*MENU*/
 	.menu_btn {
@@ -1313,6 +1322,15 @@ footer {
 @media screen 
 and (min-device-width: 320px)
 and (max-device-width: 414px) {
+	.animate_colos7 {
+		opacity: .7
+	}
+	.animate_colos45 {
+		opacity: .7
+	}
+	.animate_colos55 {
+		opacity: .7
+	}
 	.animate_colos37 {
     position: absolute;
     right: 24%;
