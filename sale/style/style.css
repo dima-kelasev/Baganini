@@ -1014,6 +1014,9 @@ text-align: center;
     right: 38%;
     text-align: center;
 }
+#text_prise {
+	top: -50%;
+}
 
 }
 
