@@ -136,6 +136,7 @@ header {
 	display: flex;
 	justify-content: flex-end;
 	margin: 3% 0;
+	z-index: 5;
 }
 .footer {
 	display: flex;

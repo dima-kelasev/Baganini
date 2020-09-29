@@ -106,6 +106,8 @@ body {
 }
 .maps_1 {
 	margin: auto;
+	width: 44% !important;
+	height: 70% !important;
 }
 .maps_2 {
 	margin: auto;

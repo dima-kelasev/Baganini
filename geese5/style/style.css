@@ -405,7 +405,11 @@ line-height: 32px;
 	display: none;
 }
 #video_mb {
-	display: none;
+	display: block;
+}
+#text_video {
+	display: flex;
+	justify-content: space-around;
 }
 
 @media screen and (min-width: 1000px) 
@@ -452,7 +456,11 @@ line-height: 32px;
 	display: none;
 }
 #video_mb {
-	display: none;
+	display: block;
+}
+#text_video {
+	display: flex;
+	justify-content: space-around;
 }
 }
 
