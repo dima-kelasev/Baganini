@@ -15,6 +15,12 @@ header {
 	
 	/*background-size: cover;*/
 }
+#img_soc {
+	position: relative;
+	    top: 14px;
+    left: 9%;
+    width: 22%;
+}
 .menu_btn {
 	display: none;
 }
@@ -415,7 +421,8 @@ line-height: 32px;
     color: #fff;
     outline: none;
     text-decoration: none;
-    margin-top: 5px;
+    margin-top: -25px;
+    width: 100%;
 }
 .btn_flex {
 	display: flex;
@@ -1017,6 +1024,27 @@ text-align: center;
 }
 #text_prise {
 	top: -50%;
+}
+.button_soc a {
+
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+    margin-top: -9px;
+    width: 100%;
+
+}
+.button_soc button {
+	width: 20%;
+}
+#img_soc {
+    position: relative;
+    top: 8px;
+    left: 9%;
+    width: 22%;
 }
 
 }
