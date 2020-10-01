@@ -228,6 +228,9 @@ body {
 .video_mb {
 	display: none;
 }
+.mb_block_video {
+	display: none;
+}
 	
 
 @media screen and (max-width: 1440px) 
@@ -277,6 +280,9 @@ body {
 	/*display: grid!important;*/
 }
 .video_mb {
+	display: none;
+}
+.mb_block_video {
 	display: none;
 }
 
@@ -343,6 +349,11 @@ and (max-device-width: 1024px) {
 	}
 	.flexslider .slides img {
 		width: 160%;
+	}
+	.mb_block_video {
+		display: flex;
+    	justify-content: center;
+    	margin: 5% 0;
 	}
 	.menu_btn {
 		display: block;
@@ -495,6 +506,11 @@ and (max-device-width: 414px) {
 	}
 	.close_btn img {
 		width: 150px;
+	}
+	.mb_block_video {
+		display: flex;
+   		justify-content: center;
+    	margin: 5% 0;
 	}
 	/*#hide {
 		top: 17%;
