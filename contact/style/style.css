@@ -319,6 +319,9 @@ body {
 				#hide {
 					display: none;
 				}
+				#about_mb {
+					display: none;
+				}
 
 
 @media screen and (min-width: 1000px) 
@@ -373,6 +376,9 @@ body {
 				.hide_menu {
 					display: none;
 				}
+				#about_mb {
+					display: none;
+				}
 
 			  
 	
@@ -382,6 +388,12 @@ body {
 @media screen 
 and (min-device-width: 420px)
 and (max-device-width: 1024px) {
+	#about_mb {
+		display: block;
+	}
+	#hide_about {
+		display: none;
+	}
 	.animate_colos4 {
 		opacity: .6;
 	}
@@ -613,6 +625,12 @@ footer {
 @media screen 
 and (min-device-width: 320px)
 and (max-device-width: 414px) {
+	#about_mb {
+		display: block;
+	}
+	#hide_about {
+		display: none;
+	}
 	.animate_colos4 {
 		opacity: .6;
 	}
