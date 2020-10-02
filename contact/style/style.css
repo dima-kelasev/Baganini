@@ -460,9 +460,10 @@ and (max-device-width: 1024px) {
     margin-top: 17%;
 }
 .maps_2 {
-	display: none;
+	display: block;
 }
 .maps_1 {
+	display: none;
 	width: 87%;
     height: 73%;
 }
@@ -791,7 +792,7 @@ and (max-device-width: 414px) {
     margin-top: 10%;
 }
 .maps_2 {
-	display: none;
+	display: block;
 }
 .maps_block {
     margin: 0;
@@ -801,7 +802,9 @@ and (max-device-width: 414px) {
     display: flex;
     justify-content: space-around;
 }
+
 .maps_1 {
+	display: none;
 	width: 87%;
     height: 73%;
 }

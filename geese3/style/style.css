@@ -423,6 +423,9 @@ line-height: 32px;
 @media screen 
 and (min-device-width: 420px)
 and (max-device-width: 1024px) {
+	.colos_animate19 {
+		display: none;
+	}
 	.colos_animate3 {
 		opacity: .6;
 	}
@@ -595,6 +598,9 @@ footer {
 @media screen 
 and (min-device-width: 320px)
 and (max-device-width: 414px) {
+	.colos_animate19 {
+		display: none;
+	}
 	.colos_animate3 {
 		opacity: .6;
 	}
