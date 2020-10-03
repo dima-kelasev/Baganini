@@ -336,7 +336,7 @@ header {
 }
 .text_after_product {
 	position: absolute;
-	bottom: 4%;
+	bottom: -1%;
 	right: 43%;
 	text-align: center;
 }
@@ -348,7 +348,7 @@ header {
 }
 .text_after_product2 {
 	position: absolute;
-	bottom: 4%;
+	bottom: -1%;
 	right: 38%;
 	text-align: center;
 }
@@ -943,6 +943,7 @@ text-align: center;
 
 @media screen and (min-width: 1000px) 
 			  and (max-width: 1440px) {
+			  	
 			  	.dark {
 			    background-color: rgba(0, 0, 0, .4);
 			    width: 100%;
@@ -1012,7 +1013,7 @@ text-align: center;
 }
 .text_after_product {
     position: absolute;
-    bottom: -1%;
+    bottom: -2%;
     right: 37%;
     text-align: center;
 }
