@@ -24,6 +24,7 @@ body {
 .video_media {
 	width: 100%;
     position: absolute;
+    top: -12%;
 }
 .main_title {
 	display: flex;
